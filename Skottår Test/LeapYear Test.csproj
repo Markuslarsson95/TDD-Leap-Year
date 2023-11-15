@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Skottår Kalkylator\Skottår Kalkylator.csproj" />
+    <ProjectReference Include="..\Skottår Kalkylator\LeapYear Calculator.csproj" />
   </ItemGroup>
 
 </Project>

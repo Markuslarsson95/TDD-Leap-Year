@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skottår Kalkylator", "Skottår Kalkylator\Skottår Kalkylator.csproj", "{FE8C388F-61C6-4BDC-8182-677B26C0F840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeapYear Calculator", "Skottår Kalkylator\LeapYear Calculator.csproj", "{FE8C388F-61C6-4BDC-8182-677B26C0F840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skottår Test", "Skottår Test\Skottår Test.csproj", "{7129149F-30E3-441B-98BC-F9D8D307C311}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeapYear Test", "Skottår Test\LeapYear Test.csproj", "{7129149F-30E3-441B-98BC-F9D8D307C311}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
