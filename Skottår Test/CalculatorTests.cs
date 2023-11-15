@@ -13,7 +13,7 @@ namespace LeapYear_Test
         [TestCase(2024)]
         [TestCase(2020)]
         [TestCase(2028)]
-        public void WhenLeapYearShouldReturnTrue(int leapYear)
+        public void When_CheckLeapYear_ShouldReturnTrue(int leapYear)
         {
             //Arrange
             //int leapYear = 2024;
@@ -29,7 +29,7 @@ namespace LeapYear_Test
         [TestCase(1700)]
         [TestCase(1900)]
         [TestCase(2100)]
-        public void WhenLeapYearShouldReturnFalse(int leapYear)
+        public void When_CheckLeapYear_ShouldReturnFalse(int leapYear)
         {
             //Arrange
             //int leapYear = 1700;
@@ -45,7 +45,7 @@ namespace LeapYear_Test
         [TestCase("2023-11-15", 319)]
         [TestCase("2020-01-5", 5)]
         [TestCase("2024-04-18", 109)]
-        public void GetDayOfTheYear(DateTime date, int expectedInt)
+        public void When_GetDayNumber_Should_ReturnDay(DateTime date, int expectedInt)
         {
             //Arrange
             //DateTime date = new DateTime(2024, 1, 1);
@@ -61,7 +61,7 @@ namespace LeapYear_Test
         [TestCase("2023-11-15", 46)]
         [TestCase("2020-01-5", 1)]
         [TestCase("2024-04-18", 16)]
-        public void GetWeekOfTheYear(DateTime date, int expectedInt)
+        public void When_GetWeekOfTheYear_Should_ReturnWeek(DateTime date, int expectedInt)
         {
             //Arrange
             //DateTime date = DateTime.UtcNow;
@@ -78,7 +78,7 @@ namespace LeapYear_Test
         [TestCase("2020-01-5", "Sunday")]
         [TestCase("2024-04-18", "Thursday")]
         [Parallelizable(ParallelScope.All)]
-        public void GetWeekDay(DateTime date, string expectedString)
+        public void When_GetWeekDay_Should_ReturnWeekDay(DateTime date, string expectedString)
         {
             //Arrange
             //DateTime date = DateTime.UtcNow;
